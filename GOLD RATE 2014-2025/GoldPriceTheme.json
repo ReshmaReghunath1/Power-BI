@@ -1,0 +1,30 @@
+{
+  "name": "Gold Price Tracker Theme",
+  "dataColors": ["#FFD700", "#4682B4", "#DC143C", "#A9A9A9", "#DAA520", "#FFF8DC"],
+  "background": "#0B1F3A",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#FFD700",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "color": { "solid": { "color": "#FFFFFF" } },
+        "fontSize": 12,
+        "fontFamily": "Segoe UI"
+      }
+    },
+    "card": {
+      "*": {
+        "title": { "color": "#FFD700", "fontSize": 14 },
+        "labels": { "color": "#FFFFFF", "fontSize": 20 },
+        "border": { "color": "#FFD700", "show": true }
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": { "color": "#FFFFFF", "fontSize": 12 },
+        "items": { "color": "#FFFFFF", "fontSize": 12 },
+        "background": { "color": "#0B1F3A" }
+      }
+    }
+  }
+}
